@@ -12,6 +12,9 @@ public class Operation {
     }
 
     public static int division(int x, int y) {
-        return x / y;
+        if (y != 0) {
+            return x / y;
+        }
+        return 0;
     }
 }
